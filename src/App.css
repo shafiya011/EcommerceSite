@@ -1,0 +1,114 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+ 
+/* @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Cedarville+Cursive&family=Poppins:ital,wght@0,200;0,600;1,100&family=Quicksand&display=swap'); */
+
+  @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Cedarville+Cursive&family=Poppins:ital,wght@0,200;0,600;1,100&family=Quicksand:wght@300&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: "Playfair";
+  box-sizing: border-box;
+}
+.Navbardiv{
+  padding:15px;
+  display:flex;
+  align-items: center;
+  max-width:(100%,900px);
+  width: 100%; 
+  margin:0 auto;
+  border-bottom: 1px solid rgb(242, 233, 233);
+  justify-content: space-between;
+  background-color: rgb(232, 148, 193);
+}
+.Navbardiv h2{
+  color: rgb(237, 80, 106);
+  font-size: 25px; 
+  padding: 5px;
+  font-weight: 900;
+}
+.links{
+  padding: 5px; 
+  margin-left: auto;
+  font-weight: 600;
+}
+.links a{
+  margin-left: 25px;
+  text-decoration: none;
+  padding: 5px;
+}
+.links a:hover{
+  color:rgb(199, 29, 199)
+}
+.homePage{
+  display: flex;
+  justify-content: space-evenly;
+  
+  height: 60vh;
+  width: 100vw;
+  margin: auto;
+  text-align: center;
+  color: darkblue;
+  padding:20px;
+  max-width: (100%, 900px);
+  
+  font-weight: 800;
+
+}
+#blogdiv{
+  border-bottom: 1px solid rgb(237, 230, 230);
+  padding: 10px;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.homeDiv{
+  /* display: flex; */
+  width: 100%;
+  height:100vh;
+}
+
+.axiosTable{
+  background: rgb(238,174,202);
+  background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  height: 100vh;
+  width: 100%;
+  border-collapse: separate;
+  
+}
